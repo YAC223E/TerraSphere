@@ -1,0 +1,47 @@
+{
+  "source": "Natural Earth (NACIS) via nvkelso/natural-earth-vector master/geojson",
+  "urls": [
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_land.geojson"
+  ],
+  "acquisitionDate": "2026-09-04",
+  "license": "Public domain (Natural Earth Terms of Use; GeoJSON conversion CC0)",
+  "version": "Natural Earth 5.1.x track (commit-pinned by re-running script; see raw-data timestamps)",
+  "processing": "byte-identical copy raw-data→public/data; Africa subsets by CONTINENT==Africa filter only",
+  "files": [
+    {
+      "name": "ne_110m_admin_0_countries.geojson",
+      "features": 177,
+      "bytes": 838726,
+      "runtime": true
+    },
+    {
+      "name": "ne_50m_admin_0_countries.geojson",
+      "features": 242,
+      "bytes": 3083490,
+      "runtime": true
+    },
+    {
+      "name": "ne_10m_admin_0_countries.geojson",
+      "features": 258,
+      "bytes": 13287234,
+      "runtime": false
+    },
+    {
+      "name": "ne_110m_land.geojson",
+      "features": 127,
+      "bytes": 138160,
+      "runtime": true
+    },
+    {
+      "name": "ne_50m_land.geojson",
+      "features": 1420,
+      "bytes": 1636166,
+      "runtime": true
+    }
+  ],
+  "runtimeFormat": "GeoJSON (WGS84 lon/lat, EPSG:4326) loaded via Cesium GeoJsonDataSource, clamped to terrain"
+}

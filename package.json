@@ -1,0 +1,41 @@
+{
+  "name": "high-precision-3d-earth",
+  "description": "High-precision 3D geospatial visualization of Earth using real geographic coordinates (WGS84).",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json",
+    "fetch:data": "node scripts/fetch-natural-earth.mjs",
+    "qa": "node scripts/qa-browser.mjs",
+    "qa:interactive": "node scripts/qa-interactive.mjs"
+  },
+  "dependencies": {
+    "cesium": "^1.145.0",
+    "geographiclib-geodesic": "^2.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "eslint": "^10.10.0",
+    "oxlint": "^1.79.0",
+    "prettier": "^3.9.6",
+    "puppeteer-core": "^25.10.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vite-plugin-static-copy": "^4.1.1",
+    "vitest": "^5.0.0"
+  }
+}
