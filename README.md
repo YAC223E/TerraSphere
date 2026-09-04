@@ -205,5 +205,4 @@ Terminé : globe WGS84, vecteurs LOD + sélection mathématique, validation Afri
 Dépôt en préparation de publication (aucun dépôt distant pour l'instant) : `npm install`, `npm test`, `npm run qa:interactive` avant toute proposition. Conventions : TypeScript strict, `prettier`, exactitude géographique avant esthétique, aucun secret commité, toute transformation de coordonnées documentée SOURCE → CIBLE.
 
 ## Licence du projet
-
-**À choisir avant publication** — aucun fichier `LICENSE` ni champ `license` pour le moment (voir section Licences pour les dépendances et données, aux conditions distinctes).
+MIT
